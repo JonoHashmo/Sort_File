@@ -7,7 +7,7 @@ import shutil
 
 ### Prompt for path to csv file with correct image names###
 while True:
-    f_path = input("Enter path for HF_LF_60.csv: ")
+    f_path = input("Enter path for your .csv file: ")
     try:
         foods_csv = pd.read_csv(f_path)
         break
