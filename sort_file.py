@@ -12,7 +12,7 @@ while True:
         foods_csv = pd.read_csv(f_path)
         break
     except:
-        print("Wrong file path for HF_LF_60.csv")
+        print("Wrong file path for .csv file")
         continue
 
 ### Prompt for path to stimuli folder###
